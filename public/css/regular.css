@@ -1,0 +1,133 @@
+body{
+  font-family: 'Cinzel Decorative', cursive;
+  background-color: rgba(100,100,150, 1);
+  color: rgba(0,0,0, 1);
+  text-align: center;
+}
+
+.wrapper{
+  display: flex;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex; 
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  justify-content: space-center;
+  justify-content: -webkit-space-center;
+  justify-content: -moz-space-center;
+  justify-content: -ms-space-center;
+  background-color: rgba(255,255,255, .5);
+  margin: 20px auto;
+  padding: 40px;
+  max-width: 60%;
+  border: 2px solid rgba(255,255,255,1);
+  box-shadow: 10px 7px 4px rgba(0,0,0, .3);
+
+}
+
+
+
+#security{
+  float: left;
+  position: relative;
+  padding-left: 40px;
+}
+#title{
+  display: inline-block;
+  font-family: 'Bevan', cursive;
+  font-size: 100px;
+  position: relative;
+  margin: auto;
+  padding-top: 100px;
+  text-align: center;
+  max-width: 100%;
+  color: white;
+  text-shadow: 1px 1px rgba(255,255,255,1), 2px 2px rgba(220,220,220,1), 3px 3px rgba(0,0,0,.25), 4px 4px rgba(190,190,190,1), 5px 5px rgba(170,170,170,1), 6px 6px rgba(120,120,120,1), 7px 9px rgba(100,100,100,1), 8px 10px rgba(80,80,80,1), 15px 13px rgba(0,0,0,.8);
+}
+
+header{
+  padding-top: 20px;
+  text-align: left;
+}
+
+p{
+  background-color: rgba(255,255,255,1);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 5px rgba(0,0,0, .3);
+  max-width: 100%;
+  height: 200px;
+  font-family: 'Libre Baskerville', serif;
+}
+
+div{
+  border-radius: 5px;
+}
+
+header{
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  background-color: rgba(255,255,255, 1);
+  z-index: 10;
+  top: 0px;
+  left: 0px;
+    box-shadow: 10px 10px 5px rgba(0,0,0, .3);
+}
+
+
+@media screen and (max-device-width: 500px){
+  #title{
+    display: inline-block;
+    font-family: 'Bevan', cursive;
+    font-size: 40px;
+    position: relative;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+    max-width: 100%;
+    color: white;
+    text-shadow: 1px 1px rgba(255,255,255,1), 2px 2px rgba(220,220,220,1), 3px 3px rgba(0,0,0,.25), 4px 4px rgba(190,190,190,1), 5px 5px rgba(170,170,170,1), 6px 6px rgba(120,120,120,1), 7px 9px rgba(100,100,100,1), 8px 10px rgba(80,80,80,1), 15px 13px rgba(0,0,0,.8);
+  }
+  
+  p{
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 500px){
+  #title{
+    display: inline-block;
+    font-family: 'Bevan', cursive;
+    font-size: 40px;
+    position: relative;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+    max-width: 100%;
+    color: white;
+    text-shadow: 1px 1px rgba(255,255,255,1), 2px 2px rgba(220,220,220,1), 3px 3px rgba(0,0,0,.25), 4px 4px rgba(190,190,190,1), 5px 5px rgba(170,170,170,1), 6px 6px rgba(120,120,120,1), 7px 9px rgba(100,100,100,1), 8px 10px rgba(80,80,80,1), 15px 13px rgba(0,0,0,.8);
+  }
+  
+  p{
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 1024px) {
+  #title{
+    display: inline-block;
+    font-family: 'Bevan', cursive;
+    font-size: 80px;
+    position: relative;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+    max-width: 100%;
+    color: white;
+    text-shadow: 1px 1px rgba(255,255,255,1), 2px 2px rgba(220,220,220,1), 3px 3px rgba(0,0,0,.25), 4px 4px rgba(190,190,190,1), 5px 5px rgba(170,170,170,1), 6px 6px rgba(120,120,120,1), 7px 9px rgba(100,100,100,1), 8px 10px rgba(80,80,80,1), 15px 13px rgba(0,0,0,.8);
+  }
+}
